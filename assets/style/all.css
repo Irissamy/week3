@@ -47,6 +47,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  text-decoration: none; }
+
 .layout-content {
   width: 100%;
   margin: 0 auto; }
@@ -410,8 +413,7 @@ table {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 100%;
-      text-decoration: none; }
+      height: 100%; }
       .tab-list__item .item-link__icon {
         max-width: 100%;
         height: auto;
